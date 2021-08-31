@@ -48,7 +48,6 @@ i {
   font-weight: bold;
   background-color: rgb(126, 151, 59);
   border: 3px solid rgb(59, 58, 58);
-  /* Waarom zie ik op de website dubbele border aan de zijkanten van diagnostic style worden */
 }
 .rounded {
   text-align: center;
@@ -62,4 +61,8 @@ i {
   padding: 15px;
   border-radius: 5px;
   border-radius: 5px;
+}
+.random {
+  color: red;
+  font-size: 35px;
 }
