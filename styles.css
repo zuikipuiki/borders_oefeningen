@@ -1,0 +1,65 @@
+h1 {
+  font-size: 20px;
+}
+.stamp {
+  width: 300px;
+  height: 400px;
+  background-image: url("postzegel.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(255, 255, 255);
+  border: 12px dashed #1b1a19;
+}
+.stamp p {
+  color: rgba(29, 29, 5, 0.753);
+  margin: 0px 10px 0 0;
+  font: bold 42px Georgia, "Times New Roman", Times, serif;
+  text-align: right;
+}
+
+.img_photo {
+  height: 300px;
+  border: 1px solid #999;
+  background-color: #ffffff;
+  padding: 4px;
+}
+.coupon {
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  border: 3px dashed rgb(121, 119, 119);
+}
+#order {
+  font-size: 20px;
+}
+blockquote {
+  margin: 1em 3em;
+  color: rgb(112, 111, 111);
+  border-left: 4px solid #999;
+  padding-left: 1em;
+  font-size: 18px;
+}
+
+s,
+b,
+i {
+  color: rgb(104, 88, 175);
+  font-weight: bold;
+  background-color: rgb(126, 151, 59);
+  border: 3px solid rgb(59, 58, 58);
+  /* Waarom zie ik op de website dubbele border aan de zijkanten van diagnostic style worden */
+}
+.rounded {
+  text-align: center;
+  width: 30%;
+  background-color: #666;
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.3em;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 5px;
+  border-radius: 5px;
+}
